@@ -1,0 +1,40 @@
+#newcont{
+   display: flex;
+   padding-left: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image: url('5651986.jpg');
+   background-repeat: no-repeat, no-repeat;
+   background-size:  800px 750px;
+   background-position:  right top;
+}
+/* body{
+       background-image: url('5651986.jpg');
+        background-repeat: no-repeat, no-repeat;
+        background-size:  800px 750px;
+        background-position:  right top;
+} */
+.cont1{
+    padding-top: 200px;
+}
+.fonts{
+    font-size: 100px;
+}
+.navbarcus{
+    height:100px;
+}
+.breadcrumb-item +.breadcrumb-item::before {
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+);
+}
+.anchor{
+    color: #6c757d; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.anchor:hover{
+    color : rgb(230, 227, 5)
+}
+.textpadd{
+    padding-right: 330px;
+}
+.padding12{
+    
+}
