@@ -1,13 +1,12 @@
 import React from 'react';
-import myphoto from '../myphoto.jpeg'
+import myphoto from '../assets/myphoto.jpeg'
 
-const progresStyle = {
-  width : '75%'
-}
 const cardStyle = { 
     width : '70%'
 }
+
 export default function About() {
+
   return( 
     <>
    <div className='container'>
@@ -33,15 +32,15 @@ export default function About() {
         </div>
       </div>
       <div className='d-flex justify-content-center align-items-center'>
-      <div class="card mb-3 " style={cardStyle}>
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src={myphoto} class="img-fluid rounded-start" alt="myphoto"/>
+      <div className="card mb-3 " style={cardStyle}>
+  <div className="row g-0">
+    <div className="col-md-4">
+      <img src={myphoto} className="img-fluid rounded-start" alt="myphoto"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title text-warning text-uppercase py-2 fw-bold">About me ..</h5>
-        <h4 class="card-text text-uppercase py-2">A software & web developer based in India</h4>
+        <h5 className="card-title text-warning text-uppercase py-2 fw-bold">About me ..</h5>
+        <h4 className="card-text text-uppercase py-2">A software & web developer based in India</h4>
         <p className='card-text lh-lg fst-italic'>I am a student currently pursuing B.Tech in Thapar University , India. I am passionate about coding and would like to work on different & unique projects .
         As a coder I believe 
         Code can never do anything the developer wants. 
@@ -121,6 +120,18 @@ export default function About() {
           <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning fw-bold" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width : '80%' }}>80%</div>          </div>
           </div>
           </div>
+      </div>
+      <div className='container '>
+        <div className='row'>
+        <div className='d-flex justify-content-center align-items-center'>
+          <div className='fs-6 text-warning fw-bold text-uppercase'>Resume</div>
+          </div>
+          <div className='row'>
+          <div className='d-flex justify-content-center align-items-center'>
+            <div className='fs-2 fw-bold ps-4'>My Resume</div>
+        </div>
+        </div>
+      </div>
       </div>
       </>
     );
